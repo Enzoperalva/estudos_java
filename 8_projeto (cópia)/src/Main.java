@@ -22,8 +22,7 @@ public class Main {
 		areaRetangulo = A * B;
 
 		System.out.printf("TRIANGULO: %.3f%nCIRCULO: %.3f%nTRAPEZIO: %.3f%nQUADRADO: %.3f%nRETANGULO: %.3f%n", areaTrianguloRetangulo, areaCirculo, areaTrapezio, areaQuadrado, areaRetangulo);
-		
-		System.out.println("");
+
 		sc.close();
 	}
 }
