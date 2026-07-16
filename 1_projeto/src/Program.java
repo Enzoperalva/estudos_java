@@ -1,7 +1,5 @@
-import java.util.Locale;
-
 public class Program {
-	public static void(String[] args) {
+	public static void main(String[] args) {
 		System.out.println("Enzo");
 
 	}
