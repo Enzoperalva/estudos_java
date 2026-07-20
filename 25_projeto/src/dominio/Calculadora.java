@@ -8,4 +8,8 @@ public class Calculadora {
 		}
 		System.out.println("Soma dos números: "+soma);
 	}
+
+	public void somaVarArgs() {
+
+	}
 }
