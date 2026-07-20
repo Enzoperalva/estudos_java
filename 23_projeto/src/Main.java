@@ -5,6 +5,7 @@ public class Main {
 		System.out.println(res);
 	}
 	public static int multiplicaDoisNums(int num1, int num2) {
+		
 		return num1 * num2;
 	}
 }
