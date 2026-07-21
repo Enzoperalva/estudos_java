@@ -1,9 +1,39 @@
 package dominio;
 
 public class Funcionario {
-	public int idade;
-	public String nome;
-	public double[] salarios;
+	private int idade;
+	private String nome;
+	private double[] salarios;
+	private float media;
+
+	public int getIdade() {
+		return idade;
+	}
+
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public double[] getSalarios() {
+		return salarios;
+	}
+
+	public void setSalarios(double... salarios) {
+		this.salarios = salarios;
+	}
+
+	public float getMedia() {
+		return media;
+	}
+
 
 	public void imprimir() {
 		if(this.idade != 0 && !this.nome.isEmpty() && this.salarios != null) {
@@ -21,11 +51,10 @@ public class Funcionario {
 	}
 
 	public void mediaSalario() {
-		float soma = 0;
 		for(double nums: this.salarios) {
-			soma += nums;
+			this.media += nums;
 		}
-		float media = soma / salarios.length;
+		media /= salarios.length;
 		System.out.printf("Média dos salários: %.2f", media);
 	}
 }
