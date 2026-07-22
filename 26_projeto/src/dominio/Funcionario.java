@@ -22,10 +22,6 @@ public class Funcionario {
 		this.nome = nome;
 	}
 
-	public double[] getSalarios() {
-		return salarios;
-	}
-
 	public void setSalarios(double... salarios) {
 		this.salarios = salarios;
 	}
