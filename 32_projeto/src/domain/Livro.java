@@ -5,13 +5,10 @@ public class Livro {
 	private String autor;
 	private int quantExemplares;
 
-	public Livro(String titulo, String autor) {
-		this.titulo = titulo;
-		this.autor = autor;
-	}
-
-	public void setQuantExemplares(int quantExemplares) {
-		this.quantExemplares = quantExemplares;
+	public Livro(String titulo, String autor, int quantExemplares) {
+			this.titulo = titulo;
+			this.autor = autor;
+			this.quantExemplares = quantExemplares;
 	}
 
 	public String getTitulo() {
